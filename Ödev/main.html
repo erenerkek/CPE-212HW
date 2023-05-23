@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1> Internet Based Programming Exercise Page </h1>
+<br/>
+<h3>Yeni Sekme de Sayfa açma:</h3>
+<br/>
+<a href="/page.html" target="_blank">Yeni Sekme de açmak için buraya Tıkla</a>
+<br/>
+<h3>Telefon no arama:</h3>
+<br/>
+<a href=tel:"+905374401278">ARAMA YAP</a>
+<br/>
+<button onclick="fun1()">Javascrip çalıştırma butonu</button>
+<script>
+    fun()
+    {
+        alert("Çalışıyor");
+    }
+</script>
+<br/>
+<h3>E-mail client</h3>
+<a href=mailto:"erkekeren14@gmail.com">E-mail yolla</a>
+<br/>
+<h3>Resim ekleme:</h3>
+<img src="/indir.jpeg" alt="Recep baltaş">
+<h3>Metin arkaplan renk değiştirme</h3>
+<div style="color: red; background-color: #00ff00;">This text is red on a green background.</div>
+<div style="color: rgb(255, 165, 0); background-color: hsl(240, 100%, 50%);">This text is orange on a blue background.</div>
+<h3>Image map</h3>
+<img src="https://example.com/image.jpg" alt="A world map" usemap="#worldmap">
+<map name="worldmap">
+    <area shape="rect" coords="0,0,100,100" href="https://example.com/northamerica">
+    <area shape="circle" coords="200,200,50" href="https://example.com/europe">
+    <area shape="poly" coords="300,100,400,200,300,300,200,200" href="https://example.com/asia">
+</map>
+<br/>
+<input type="hidden" name="userId" value="1234"><br/>
+<label for="phone">Phone Number:</label>
+<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br/>
+<label for="email">Email Address:</label>
+<input type="email" id="email" name="email" required><br/>
+<label for="quantity">Quantity:</label>
+<input type="number" id="quantity" name="quantity" min="1" max="10"><br/>
+<label for="volume">Volume:</label>
+<input type="range" id="volume" name="volume" min="0" max="100"><br/>
+<br/>
+<label for="search">Search:</label>
+<input type="search" id="search" name="search"><br/>
+<input type="image" src="submit-button.png" alt="Submit"><br/>
+<label for="week">Week:</label>
+<input type="week" id="week" name="week"><br/>
+<label for="website">Website:</label>
+<input type="url" id="website" name="website"><br/>
+<label for="datetime">Date and Time:</label>
+<input type="datetime-local" id="datetime" name="datetime"><br/>
+<label for="month">Month:</label>
+<input type="month" id="month" name="month"><br/>
+<label for="time">Time:</label>
+<input type="time" id="time" name="time">
+<br/>
+<label for="month">Month:</label>
+<input type="month" id="month" name="month">
+
+</body>
+</html>
